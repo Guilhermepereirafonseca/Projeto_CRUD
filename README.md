@@ -2,7 +2,12 @@
   <img src="https://github.com/user-attachments/assets/127a05b6-b9cc-47d5-a63f-8ad4f15daa7c" width="50%">
 </div>
 
-- [Por que foi feito isso?](#criando-as-telas)
+- [Por que foi feito isso?](#por-que-foi-feito)
+- [Explicando o Processo de Criação](#explicando-o-processo-de-criação)
+  - [Criando as Tabelas](#criando-as-tabelas)
+  - [Criando as Telas](#criando-as-telas)
+- [Explicando o Processo de Criação (Código)](#explicando-o-processo-de-criação)
+  - [Variáveis utilizadas no projeto](#variáveis-utilizadas-no-projeto)
 
 # Projeto CRUD - Sistema BR
 
