@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/127a05b6-b9cc-47d5-a63f-8ad4f15daa7c" width="50%">
+</div>
+
+- [Por que foi feito isso?](#criando-as-telas)
+
 # Projeto CRUD - Sistema BR
 
 ## Por que foi feito?
