@@ -4,7 +4,7 @@
 
 <p align="justify">Para conseguir um <strong>Estágio, PJ, Jovem Aprendiz</strong>na Area de Programação WEB/DESKTOP</p>
 
-## Sobre o Projeto:
+## Explicando o Processo de Criação:
 ### Criando as Tabelas:
 
 <p align="justify">&emsp; Para a criação das tabelas utilizei o banco de dados da Microsoft, <strong>SQL SERVER MANAGEMENT STUDIO 2.0</strong>, nele criei as tabelas Estado e Cidade, possuindo as seguintes colunas como podemos ver na imagem abaixo:<p> <br>
@@ -51,6 +51,9 @@
 
 <p align="justify">&emsp;O ícone do programa eu peguei de um site gratuitos de ícones, o nome do title text eu coloquei <strong>"Cadastro de Cidade & Estado</strong>, como podemos ver logo abaixo (olhe para o lado superior canto esquerdo da aplicação):</p>
 
-<div align="center>
-  <img src="https://github.com/user-attachments/assets/96f63dda-2e69-42fe-97d4-d03fcf052554" width="90%">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/74791962-f299-41f4-9f1c-865c0609ae51" width="90%">  
 </div>
+
+## Explicando o Processo de Criação (Código)
+### Variáveis utilizadas no projeto:
