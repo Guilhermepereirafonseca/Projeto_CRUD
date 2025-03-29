@@ -26,7 +26,7 @@
 
 <br>
 
-<p align="justify">&emsp;Testei inserindo valores no mesmmo, para restar se estava realmente interligas e funcionando perfeitamente:</p>
+<p align="justify">&emsp;Testei inserindo valores no mesmo, para restar se estava realmente interligas e funcionando perfeitamente:</p>
 
 <br>
 
@@ -96,7 +96,7 @@
 
 ### btnCadastrar()
 
-<p align="justify">Aqui já começamos a entrar nas partes das funções dos botões, sendo o primeiro de cadastrar o que foi inserido pelo usuário, fiz tratamento caso o usuário tente inserir nada no banco de dados, além de exibir em uma MessageBox se a Cidade e Estado foram cadastrados com sucesso ou não:</p>
+<p align="justify">&emsp;Aqui já começamos a entrar nas partes das funções dos botões, sendo o primeiro de cadastrar o que foi inserido pelo usuário, fiz tratamento caso o usuário tente inserir nada no banco de dados, além de exibir em uma MessageBox se a Cidade e Estado foram cadastrados com sucesso ou não:</p>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/20505dab-a5a7-4466-bc9e-9e6702020a70" width="70%">
@@ -107,4 +107,26 @@
 
 ### bntListar()
 
-<p align="justify"
+<p align="justify">&emsp;Aqui entra o botão para listar toda alteração do banco de dados, irá exibir nome da cidade, nome do estado e principalmente a sigla do mesmo:</p>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d4977f14-e417-4e72-8f5a-81d6166126f4" width="90%">
+</div>
+
+### bntDeletar()
+
+Aqui temos o botão que pode fazer duas ações quando clicar no mesmo:
+
+<ol>
+  <li><p align="justify">O primeiro clique no botão os labels que estavam escritos "<strong>Cadatre uma Cidade:</strong>" "<strong>Cadastre um Estado</strong>" iram mudar para "<strong>Deletar Cidade</strong>" "<strong>Deletar Estado</strong>", logo depois pega as variáveis criadas e atribui novamente os valores digitados pelo usuário:</p></li>
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/44cadc08-e708-4892-a490-854917768643" width="90%">
+  </div>
+
+  <li><p align="justify">O segundo clique já faz ação que o botão foi feito, deletar o que já esta escrito no banco de Dados (para isso precisa clicar no botão listar para ver o que já esta no banco de dados):</p></li>
+
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/7e714faa-793c-438d-bbe6-2b5b4eb0abdf" width="90%">
+    <img src="https://github.com/user-attachments/assets/e009553b-9bf6-4920-a1bd-7352c74fd8c2" width="90%">
+  </div>
+</ol>
