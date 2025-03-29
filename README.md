@@ -8,6 +8,11 @@
   - [Criando as Telas](#criando-as-telas)
 - [Explicando o Processo de Criação (Código)](#explicando-o-processo-de-criação-código)
   - [Variáveis utilizadas no projeto](#variáveis-utilizadas-no-projeto)
+  - [private void TestarConexao()](#private-void-testarconexao)
+  - [txtCidade, txtBoxEstado, txtBoxEstadoSigla](#txtcidade-txtboxestado-txtboxestadosigla)
+  - [btnCadastrar()](#btncadastrar)
+  - [bntListar()](#bntlistar)
+  - [bntDeletar()](#bntdeletar)
 
 # Projeto CRUD - Sistema BR
 
@@ -130,3 +135,5 @@ Aqui temos o botão que pode fazer duas ações quando clicar no mesmo:
     <img src="https://github.com/user-attachments/assets/e009553b-9bf6-4920-a1bd-7352c74fd8c2" width="90%">
   </div>
 </ol>
+
+> [VOLTAR AO INICIO](#projeto-crud---sistema-br)
