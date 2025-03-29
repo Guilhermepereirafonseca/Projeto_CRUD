@@ -6,7 +6,7 @@
 - [Explicando o Processo de Criação](#explicando-o-processo-de-criação)
   - [Criando as Tabelas](#criando-as-tabelas)
   - [Criando as Telas](#criando-as-telas)
-- [Explicando o Processo de Criação (Código)](#explicando-o-processo-de-criação)
+- [Explicando o Processo de Criação (Código)](#explicando-o-processo-de-criação-código)
   - [Variáveis utilizadas no projeto](#variáveis-utilizadas-no-projeto)
 
 # Projeto CRUD - Sistema BR
@@ -68,3 +68,43 @@
 
 ## Explicando o Processo de Criação (Código)
 ### Variáveis utilizadas no projeto:
+<p align="justify">&emsp;Criei as seguintes variáveis no projeto, sendo a principal a string de conexão do banco de dados,, veja abaixo:</p>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dbd54cc6-d088-496f-873b-64aac774f518" width="90%">
+</div>
+
+<p align="justify">&emsp;Todos foram criados fora da classe de elementos, fazendo assim <strong>variáveis globais</strong></p>
+
+### private void TestarConexao()
+
+<p align="justify">&emsp;Aqui a primeira classe do programa, testando a conexão do banco de dados/abrindo o mesmo, resolvi fazer desse jeito para ficar melhor na leitura e manutenção do código depois (por isso e o primeiro que aparece, a instancia <span>public Cidade()</span> nela está chamando a classe)</p>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/314f95a8-88f8-4b3d-a61f-0c8ef73e00c2" width="90%">
+</div>
+
+### txtCidade, txtBoxEstado, txtBoxEstadoSigla
+
+<p align="justify">&emsp;Essa parte são os TextBox citadfos na parte "<a href="#criando-as-telas">Criando as Telas</a>" aqui usarei as variáveis usadas para guardar as informações digitadas pelo usuário para cadastrar e deletar:</p>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b041028a-7c2b-41d9-9669-20a358218dce" width="90%">
+</div>
+
+<p align="justify">&emsp;Coloquei um tratamento de string no <mark><strong>txtBoxEstadoSigla</strong></mark> usando o método <strong>.ToUpper()</strong> para que qualquer coisa que o usuário escreva seja convertida para letras maiúsculas (por ser SIGLAS de ESTADOS isso e extremamanete importante)</p>
+
+### btnCadastrar()
+
+<p align="justify">Aqui já começamos a entrar nas partes das funções dos botões, sendo o primeiro de cadastrar o que foi inserido pelo usuário, fiz tratamento caso o usuário tente inserir nada no banco de dados, além de exibir em uma MessageBox se a Cidade e Estado foram cadastrados com sucesso ou não:</p>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/20505dab-a5a7-4466-bc9e-9e6702020a70" width="70%">
+  
+  <img src="https://github.com/user-attachments/assets/03ab0dd1-4015-4a4c-8dfa-38ea13359777" width="70%">
+
+</div>
+
+### bntListar()
+
+<p align="justify"
