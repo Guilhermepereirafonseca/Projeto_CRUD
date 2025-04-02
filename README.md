@@ -39,6 +39,8 @@
   <img src="https://github.com/user-attachments/assets/819ece5a-89b9-45af-8c6b-5e6845e08084" width="90%">
 </div>
 
+> [VOLTAR AO INICIO](#projeto-crud---sistema-br)
+
 ### Criando as Telas:
 
 <p align="justify">&emsp;No meu caso resolvi fazer uma única tela, mas contendo <strong>tudo</strong> que foi relatado pela empresa SISTEMAS BR</p>
@@ -71,6 +73,8 @@
   <img src="https://github.com/user-attachments/assets/74791962-f299-41f4-9f1c-865c0609ae51" width="90%">  
 </div>
 
+> [VOLTAR AO INICIO](#projeto-crud---sistema-br)
+
 ## Explicando o Processo de Criação (Código)
 ### Variáveis utilizadas no projeto:
 <p align="justify">&emsp;Criei as seguintes variáveis no projeto, sendo a principal a string de conexão do banco de dados,, veja abaixo:</p>
@@ -81,6 +85,8 @@
 
 <p align="justify">&emsp;Todos foram criados fora da classe de elementos, fazendo assim <strong>variáveis globais</strong></p>
 
+> [VOLTAR AO INICIO](#projeto-crud---sistema-br)
+
 ### private void TestarConexao()
 
 <p align="justify">&emsp;Aqui a primeira classe do programa, testando a conexão do banco de dados/abrindo o mesmo, resolvi fazer desse jeito para ficar melhor na leitura e manutenção do código depois (por isso e o primeiro que aparece, a instancia <span>public Cidade()</span> nela está chamando a classe)</p>
@@ -88,6 +94,8 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/314f95a8-88f8-4b3d-a61f-0c8ef73e00c2" width="90%">
 </div>
+
+> [VOLTAR AO INICIO](#projeto-crud---sistema-br)
 
 ### txtCidade, txtBoxEstado, txtBoxEstadoSigla
 
@@ -98,6 +106,8 @@
 </div>
 
 <p align="justify">&emsp;Coloquei um tratamento de string no <mark><strong>txtBoxEstadoSigla</strong></mark> usando o método <strong>.ToUpper()</strong> para que qualquer coisa que o usuário escreva seja convertida para letras maiúsculas (por ser SIGLAS de ESTADOS isso e extremamanete importante)</p>
+
+> [VOLTAR AO INICIO](#projeto-crud---sistema-br)
 
 ### btnCadastrar()
 
@@ -110,6 +120,8 @@
 
 </div>
 
+> [VOLTAR AO INICIO](#projeto-crud---sistema-br)
+
 ### bntListar()
 
 <p align="justify">&emsp;Aqui entra o botão para listar toda alteração do banco de dados, irá exibir nome da cidade, nome do estado e principalmente a sigla do mesmo:</p>
@@ -117,6 +129,8 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/d4977f14-e417-4e72-8f5a-81d6166126f4" width="90%">
 </div>
+
+> [VOLTAR AO INICIO](#projeto-crud---sistema-br)
 
 ### bntDeletar()
 
